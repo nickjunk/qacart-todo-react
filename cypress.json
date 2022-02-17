@@ -1,0 +1,5 @@
+{
+    "baseUrl": "http://localhost:3000/",
+    "testFiles": "**/*.spec.js",
+    "projectId": "n32av8"
+}
