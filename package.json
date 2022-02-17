@@ -23,6 +23,7 @@
         "build": "react-scripts build",
         "test": "react-scripts test --env=jsdom",
         "eject": "react-scripts eject",
-        "e2e-chrome": "cypress run --browser chrome --headless --record --key d0d9780f-ba6b-4538-b8f0-a580bf11e184"
+        "e2e-chrome": "cypress run --browser chrome --headless --record --key d0d9780f-ba6b-4538-b8f0-a580bf11e184",
+        "docker:test": "docker build -f Dockerfile . -t todosappcypress "
     }
 }
