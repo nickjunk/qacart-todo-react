@@ -5,4 +5,5 @@ workflows:
   build:
     jobs:
       - cypress/run:
+          store artifacts: true
           command: npm run build:and:test
