@@ -4,6 +4,5 @@ orbs:
 workflows:
   build:
     jobs:
-      - cypress/run
-      - cypress/install:
-        command: 'npm run build:and:test'
+      - cypress/run:
+          command: npm run docker:e2e
