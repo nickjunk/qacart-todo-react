@@ -2,7 +2,6 @@
 
 describe("Todo UI Testing", () => {
     beforeEach("Visit Site", () => {
-        cy.log("Starting test");
         cy.visit("/");
     })
     it.only("Should add a new todo", () => {
